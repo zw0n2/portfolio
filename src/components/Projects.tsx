@@ -102,7 +102,7 @@ async function fetchProgress(taskId) {
 `.trim(),
         achievement: '배포 후 실사용 중',
         link: 'https://event-site-sandy.vercel.app/',
-        image: '/project3.jpg',
+        image: '/project3.JPG',
     },
 ];
 

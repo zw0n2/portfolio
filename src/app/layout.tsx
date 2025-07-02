@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Jiwon's Portfolio",
-    description: "Welcome to Jiwon's portfolio website",
+    title: '김지원 | 프론트엔드 개발자 포트폴리오',
+    description: 'Frontend Developer Portfolio of Ji-Won Kim. 프로젝트, 기술 스택 등 다양한 정보를 담았습니다.',
 };
 
 export default function RootLayout({

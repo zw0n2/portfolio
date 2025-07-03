@@ -26,11 +26,14 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={`
-      ${geistSans.variable} ${geistMono.variable} antialiased
-      bg-white dark:bg-gray-900 min-h-screen
-    `}
+                    ${geistSans.variable} ${geistMono.variable} antialiased
+                    bg-white dark:bg-gray-900 min-h-screen
+                `}
             >
                 {children}
+                <footer className="w-full py-8 text-center text-gray-300 dark:text-gray-600 text-sm">
+                    © {new Date().getFullYear()} Jiwon Kim. All rights reserved.
+                </footer>
             </body>
         </html>
     );

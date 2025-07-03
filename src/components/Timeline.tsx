@@ -176,6 +176,8 @@ const TIMELINE_EVENTS: TimelineEvent[] = [
                 <div>• 지속적으로 고도화 및 업데이트 중</div>
             </>
         ),
+        link: 'https://github.com/zw0n2/portfolio.git',
+        linkLabel: 'GitHub 보기',
     },
 ];
 
